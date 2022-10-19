@@ -1,0 +1,151 @@
+#root {
+  max-width: 1244px;
+  margin: auto;
+}
+
+body {
+  background-color: #FAFBFA;
+}
+
+ul {
+  color: #283628;
+}
+
+a {
+  font-family: sans-serif;
+  font-size: large;
+  color: #5F634F;  
+}
+
+h4 {
+  color: #0C1107;
+  text-shadow: 0.5px 0.5px #FFFFFF;
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+form {
+  margin: 4rem;
+}
+
+label {
+  color: red;
+  font-size: medium;
+}
+
+.headline {
+  text-align: center;
+  font-style: italic;
+  text-shadow: 0.5px 0.5px #ff0000;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #5E3023;
+  color: #71655A;
+}
+
+.title-div {
+  font-weight: bold;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  color: #343742;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 4rem;
+  grid-row-gap: 4rem;
+ }
+
+.collection {
+  border: 2px solid #A7272C;
+  border-radius: 25px;
+}
+
+.align {
+  display: flex;
+  flex-shrink: 1;
+  vertical-align: middle;
+  clear: none;
+  padding: 1rem;
+}
+
+.collection-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collection .collection-item {
+  background-color: #F3E9DC;
+  border-bottom-color: #5E3023;
+}
+
+.material-icons {
+  cursor: pointer;
+  margin-right: 5px;
+  pointer-events: fill;
+}
+
+.species-card {
+  padding-top: 1rem;
+  background-color: #F1F2F2;
+  border: 2px solid #A7272C;
+  border-radius: 25px;
+  position: relative;
+}
+
+.vote-box {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+
+#image-display {
+  display: flex;
+  justify-content: flex-start;
+  vertical-align: middle;
+}
+
+#bold-scientific-name {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #171D8F;
+  text-shadow: 0.5px 0.5px #EBECF0;
+}
+
+#star {
+  cursor: pointer;
+  margin-right: 5px;
+  pointer-events: fill;
+  font-size: 72;
+  font-weight: 500;
+  font-style: inherit 
+}
+
+@media only screen and (max-width: 1280px) {
+  #root {
+      max-width: 980px;
+      margin: auto;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #root {
+      max-width: 760px;
+      margin: auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #root {
+      max-width: 460px;
+      margin: auto;
+  }
+}
