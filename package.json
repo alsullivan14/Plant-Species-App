@@ -1,10 +1,10 @@
 {
-  "name": "PlantDb   ",
+  "name": "Plant-species-app",
   "version": "1.0.0",
   "description": "Creating a simple CRUD app with NodeJS, MongoDB, GraphQL, React and Apollo",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js --ignore client"
+    "dev": "nodemon index.js --ignore client",
     "start": "npm run dev"
   },
   "author": "",
