@@ -1,10 +1,11 @@
 {
   "name": "PlantDb   ",
   "version": "1.0.0",
-  "description": "Creating a simple CRUD app with NodeJS, MongoDB, GraphQL, React and Apollo",
+  "description": "A simple app with NodeJS, MongoDB, GraphQL, React and Apollo",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js --ignore client"
+    "start": "npm run dev"
   },
   "author": "",
   "license": "ISC",
@@ -43,6 +44,10 @@
     "webpack": "^2.2.0",
     "webpack-dev-middleware": "^1.9.0"
   },
+  "engines" : {
+    "node": "16.17.0",
+    "npm": "8.15.0"
+  }
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "@babel/plugin-proposal-class-properties": "^7.4.4",
