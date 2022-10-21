@@ -13,7 +13,7 @@ const MONGO_URI = 'mongodb+srv://new-user:torcida@cluster0.qlcdnfi.mongodb.net/t
 if (!MONGO_URI) {
   throw new Error('You must provide a MongoLab URI');
 }
-
+// TRY/CATCH and mongoose.disconnect?
 mongoose.Promise = global.Promise;
 mongoose.connect(MONGO_URI, { useUnifiedTopology: true });
 mongoose.connection
