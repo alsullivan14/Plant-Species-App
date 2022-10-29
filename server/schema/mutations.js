@@ -35,17 +35,7 @@ const mutation = new GraphQLObjectType({
         return Species.star(id);
       }
     },
-    /*
-    deleteSpecies: {
-      type: SpeciesType,
-      args: { genus: { type: GraphQLID } },
-       resolve(parentValue, { genus }) {
-        if (!genus) {
-          return Species.deleteMany({});
-        }
-      }
-    },
-    */
+    
     deleteGenus: {
       type: GenusType,
       args: { id: { type: GraphQLID } },
