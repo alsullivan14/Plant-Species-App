@@ -14,8 +14,6 @@ if (!MONGO_URI) {
   throw new Error('You must provide a MongoLab URI');
 }
 
-//Previous error, await only valid as async function and top level bodies of modules
-
 mongoose.connect(MONGO_URI, { useUnifiedTopology: true });
 mongoose.connection
     .once('open', () => console.log('Connected to MongoLab instance.'))
@@ -28,23 +26,6 @@ process.on('SIGINT', () => {
     });
   });
 
-/*
-
-mongoose.disconnect()
-try {
-	Mongoose.connect(MONGO_URI, MONGO_CONFIG)
-		.then((db) => {
-			console.log('Mongoose connection Established')
-			db.connection.on('error', (err) => { console.error(err) }) // <- print nothing
-			db.connection.on('disconnected', () => { console.log('disconnected') }) // <- print once
-			db.connection.on('reconnected', () => { console.log('reconnected') }) // <- never printed
-		})
-} catch (error) {
-	console.error(error.message)
-	console.log('Mongoose connection Failed')
-	process.exit(1)
-}
-*/
 
 app.use(bodyParser.json());
 app.use('/graphql', expressGraphQL({
