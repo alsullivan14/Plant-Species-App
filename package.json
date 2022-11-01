@@ -4,7 +4,7 @@
   "description": "Creating a simple CRUD app with NodeJS, MongoDB, GraphQL, React and Apollo",
   "main": "index.js",
   "scripts": {
-    "heroku-postbuild": "npm install",
+    "heroku-postbuild": "npm install --production; export NPM_CONFIG_PRODUCTION=true; export NODE_ENV=production;",
     "dev": "nodemon index.js --ignore client",
     "start": "npm run dev"
   },
