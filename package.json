@@ -21,6 +21,7 @@
     "axios": "^0.15.3",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "body-parser": "^1.16.0",
