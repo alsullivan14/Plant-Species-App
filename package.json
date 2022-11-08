@@ -6,7 +6,7 @@
   "scripts": {
     "heroku-postbuild": "npm install --production",
     "dev": "nodemon index.js --ignore client",
-    "start": "npm run nodemon index.js --ignore client"
+    "start": "npm run dev"
   },
   "author": "",
   "license": "ISC",
