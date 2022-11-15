@@ -45,6 +45,10 @@ In browser app will be running on [https://localhost:3000/](http://localhost:300
 * Star species
 * Load data into MongoDB using PyKew API
 
+Genera page
+
+
+
 ### Structure
 
 #### Server directory
