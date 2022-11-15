@@ -46,8 +46,13 @@ In browser app will be running on [https://localhost:3000/](http://localhost:300
 * Load data into MongoDB using PyKew API
 
 Genera page
+![Genera list](public/images/GeneraList.png)
 
+Species page
+![Species list](public/images/SpeciesList.png)
 
+View species images
+![Orchid image](public/images/Orchid.png)
 
 ### Structure
 
