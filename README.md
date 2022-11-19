@@ -4,7 +4,7 @@
 
 A basic app created using NodeJS, Express, MongoDB, GraphQL, Apollo and React 
 
-This app randomly generates genera and related species information using the PyKew API from the [Kew RBG Plants of the World Database](powo.science.kew.org) and allows users to view species information, add and deleted genera, and add their own species. I chose the family **Orchidaceae** for the number of species and the variety of showy forms and colors of orchid flowers. However, any family name could be dropped into the **data.py** file to modify the plant family
+This app randomly generates genera and related species information using the PyKew Library from the [Kew RBG Plants of the World Database](powo.science.kew.org) and allows users to view species information, add genera, delete genera and add their own species. I chose the family **Orchidaceae** for the number of species and the variety of showy forms and colors of orchid flowers. However, any family name could be dropped into the **data.py** file to modify the plant family
 ### Technologies
 
 * Node-16.17.0
@@ -78,5 +78,5 @@ View species images
 **components** - Component folder consist of files for creating genera/species, stars and deleting genus. `react-apollo` used to connect components and pass **mutations** and **queries** defined using `graphql-tag`
 
 ### Credit
-Credit to [John Iacona](https://github.com/jiacona) for [PyKew API](https://github.com/RBGKew/pykew.git)
+Credit to [John Iacona](https://github.com/jiacona) for [PyKew Library](https://github.com/RBGKew/pykew.git)
 
